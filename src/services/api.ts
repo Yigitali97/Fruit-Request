@@ -1,5 +1,8 @@
 export const API = {
-  submitFruitForm: async (data: { fruit: string; quantity: string }) => {
+  submitFruitForm: async (data: {
+    selectedFruit: string;
+    quantity: string;
+  }) => {
     const response = await fetch("/api/submit-fruit", {
       method: "POST",
       headers: {

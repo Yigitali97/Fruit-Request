@@ -1,0 +1,7 @@
+.main {
+  @apply flex min-h-screen flex-col items-center justify-center p-12 sm:p-24;
+}
+
+.title {
+  @apply text-sm sm:text-lg text-[#374151]  mb-5;
+}

@@ -1,10 +1,11 @@
 import Link from "next/link";
 import SubmitButton from "@/components/submit-button";
+import styles from "./confirmation.module.css";
 
 export default function Confirmation() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-xl  mb-4">Your fruit submission is complete</h1>
+    <main className={styles.main}>
+      <h1 className={styles.title}>Your fruit submission is complete</h1>
       <Link href="/">
         <SubmitButton text="Submit another" />
       </Link>

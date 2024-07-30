@@ -1,0 +1,15 @@
+.title {
+  @apply text-lg text-[#374151] font-semibold mb-4;
+}
+
+.label {
+  @apply block text-sm text-[#374151] mb-[6px];
+}
+
+.input {
+  @apply w-full border border-[#D1D5DB] rounded p-2 text-sm outline-none;
+}
+
+.error {
+  @apply text-red-500 text-sm mt-1;
+}
