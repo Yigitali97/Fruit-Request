@@ -48,7 +48,7 @@ const FruitForm: React.FC = () => {
   };
 
   return (
-    <div className="w-full sm:w-[600px]">
+    <div className={styles.container}>
       <h1 className={styles.title}>Fruit Request</h1>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         <div>

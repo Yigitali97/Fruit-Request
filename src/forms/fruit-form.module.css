@@ -1,13 +1,17 @@
+.container {
+  @apply w-full sm:w-[600px];
+}
+
 .title {
   @apply text-lg text-[#374151] font-semibold mb-4;
 }
 
 .label {
-  @apply block text-sm text-[#374151] mb-[6px];
+  @apply block text-sm text-[#374151] mb-[6px] mt-4;
 }
 
 .input {
-  @apply w-full border border-[#D1D5DB] rounded p-2 text-sm outline-none;
+  @apply w-full border border-[#D1D5DB] rounded p-2 text-sm outline-none mb-4;
 }
 
 .error {
